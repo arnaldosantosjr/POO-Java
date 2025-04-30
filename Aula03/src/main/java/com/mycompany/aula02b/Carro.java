@@ -6,7 +6,7 @@ public class Carro {
     private float motor;
     private int ano;
     protected String freio;
-    public boolean vendido;
+    protected boolean vendido;
     protected boolean abastecido;
     
     void status(){
