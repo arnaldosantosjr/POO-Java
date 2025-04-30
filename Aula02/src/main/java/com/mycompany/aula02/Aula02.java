@@ -19,5 +19,14 @@ public class Aula02 {
         c2.tampar();
         c2.status();
         c2.rabiscar();
+        
+        Caneta c3 = new Caneta();
+        c3.modelo = "Molin";
+        c3.cor = "Vermelha";
+        c3.ponta = 1.0f;
+        c3.carga = 50;
+        c3.destampar();
+        c3.status();
+        c3.rabiscar();
     }
 }
