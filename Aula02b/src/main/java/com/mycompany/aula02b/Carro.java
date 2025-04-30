@@ -26,12 +26,12 @@ public class Carro {
     
     void abastecer(){
         if (this.abastecido == false){
-            System.out.println("ERRO: PRecisa Abastecer para Retirar o Veículo!");
+            System.out.println("ERRO: Precisa Abastecer para Retirar o Veículo!");
         
         }else{
             System.out.println("Carro pronto para retirada");
         }
-    System.out.println("====================================");
+        System.out.println("=======================================");
     
     }
     void tanquevazio(){
