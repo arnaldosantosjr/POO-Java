@@ -1,13 +1,13 @@
 package com.mycompany.aula02b;
 public class Carro {
-    String fabricante;
-    String modelo;
-    String cor;
-    float motor;
-    int ano;
-    String freio;
-    boolean vendido;
-    boolean abastecido;
+    public String fabricante;
+    public String modelo;
+    public String cor;
+    private float motor;
+    private int ano;
+    protected String freio;
+    public boolean vendido;
+    protected boolean abastecido;
     
     void status(){
         System.out.println("========================================");
@@ -24,7 +24,7 @@ public class Carro {
     
     
     
-    void abastecer(){
+    public void abastecer(){
         if (this.abastecido == false){
             System.out.println("ERRO: Precisa Abastecer para Retirar o Veículo!");
         
