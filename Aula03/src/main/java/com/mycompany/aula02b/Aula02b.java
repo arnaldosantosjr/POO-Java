@@ -14,6 +14,18 @@ public class Aula02b {
         c1.status();
         c1.abastecer();
         
+        
+        Carro c2 = new Carro();
+        c2.fabricante = "Ford";
+        c2.modelo = "Fiesta";
+        c2.cor = "Preto";
+        //c2.motor = 1.6f;
+        //c2.ano = 2012;
+        c2.freio = "ABS";
+        c2.vendido = true;
+        c2.abastecido = false;
+        c2.status();
+        c2.abastecer();
        
 
     
